@@ -6,3 +6,7 @@ Thumbs.db
 *.swp
 .vscode/
 .idea/
+
+# Local deployment and design tooling
+.wrangler/
+.impeccable/

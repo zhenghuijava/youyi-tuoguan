@@ -1,319 +1,207 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>优益托管 · 安康中小学生校外托管服务 | 午托 · 晚托 · 作业辅导</title>
-<meta name="description" content="安康优益托管服务有限公司：为中小学生提供午托、晚托、全日托管与作业辅导服务，安全接送、营养餐食、专业师资，让孩子学得好、吃得好、家长更放心。">
-<link rel="icon" href="logo.png">
-<link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f7f5ed">
+  <title>优益托管｜放学以后，也有好好成长</title>
+  <meta name="description" content="安康优益托管，为中小学生提供午托、晚托、全日及假期托管服务。看看真实课堂与每日餐食，电话预约到店参观。">
+  <link rel="icon" href="logo.png">
+  <link rel="preload" href="fonts/noto-sans-sc-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/classroom.jpg" as="image">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
 </head>
 <body>
+  <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M8.4 3.5 10 7.8 7.7 9.4c1.2 2.8 3.5 5.1 6.3 6.3l1.6-2.3 4.3 1.6v3.5c0 1-.8 1.8-1.8 1.8A15.5 15.5 0 0 1 3.7 5.3c0-1 .8-1.8 1.8-1.8h2.9Z"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6c-2-2-6-2-9-1v14c3-1 7-1 9 1m0-14c2-2 6-2 9-1v14c-3-1-7-1-9 1V6Z"/><path d="M6 9h3m-3 4h3m6-4h3m-3 4h3"/></symbol>
+    <symbol id="i-meal" viewBox="0 0 24 24"><path d="M4 13h16a8 8 0 0 1-16 0Zm8-3V7m4 3V5M3 21h18"/></symbol>
+    <symbol id="i-route" viewBox="0 0 24 24"><circle cx="6" cy="18" r="3"/><circle cx="18" cy="6" r="3"/><path d="M8.5 16H15a3 3 0 0 0 0-6H9a3 3 0 0 1 0-6"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20 15a3 3 0 0 1-3 3H9l-5 3v-6a3 3 0 0 1-1-2V6a3 3 0 0 1 3-3h11a3 3 0 0 1 3 3v9Z"/><path d="M8 9h8m-8 4h5"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20.5 14A9 9 0 0 1 10 3.5 9 9 0 1 0 20.5 14Z"/><path d="M17 3v4m-2-2h4"/></symbol>
+    <symbol id="i-expand" viewBox="0 0 24 24"><path d="M9 4H4v5m11-5h5v5M4 15v5h5m11-5v5h-5"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+  </svg>
 
-<!-- ===== 顶部导航 ===== -->
-<header class="site-header" id="top">
-  <div class="container nav-wrap">
-    <a class="brand" href="#top">
-      <img src="logo.png" alt="优益托管" class="brand-logo">
-      <span class="brand-text">
-        <strong>优益托管</strong>
-        <small>YOUYI AFTER-SCHOOL CARE</small>
-      </span>
-    </a>
-    <nav class="nav" id="mainNav">
-      <a href="#features" class="active">服务特色</a>
-      <a href="#about">关于我们</a>
-      <a href="#programs">托管班型</a>
-      <a href="#why">安全保障</a>
-      <a href="#reviews">家长评价</a>
-      <a href="#faq">常见问题</a>
-    </nav>
-    <a href="#contact" class="btn btn-yellow nav-cta">预约参观</a>
-    <button class="nav-toggle" id="navToggle" aria-label="打开菜单">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</header>
+  <a class="skip-link" href="#main">跳至主要内容</a>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="优益托管首页">
+        <img src="logo.png" alt="" width="136" height="54">
+        <span>安心托管 · 用心陪伴</span>
+      </a>
+      <nav class="nav" id="mainNav" aria-label="主导航">
+        <a href="#daily">托管日常</a>
+        <a href="#programs">班型选择</a>
+        <a href="#routine">一日安排</a>
+        <a href="#care">安心细节</a>
+        <a href="#faq">常见问题</a>
+        <a href="#contact" class="nav-mobile-contact">联系我们 <svg><use href="#i-arrow"/></svg></a>
+      </nav>
+      <a class="header-phone" href="tel:15229991006"><svg><use href="#i-phone"/></svg><span><small>预约参观咨询</small>152 2999 1006</span></a>
+      <button class="nav-toggle" id="navToggle" type="button" aria-label="打开菜单" aria-controls="mainNav" aria-expanded="false"><span></span><span></span></button>
+    </div>
+  </header>
 
-<!-- ===== 英雄区 ===== -->
-<section class="hero">
-  <div class="blob blob-blue" aria-hidden="true"></div>
-  <div class="doodle doodle-1" aria-hidden="true">✦</div>
-  <div class="container hero-grid">
-    <div class="hero-copy">
-      <p class="eyebrow">安心托管 · 用心陪伴 · 贴心成长</p>
-      <h1>放学后的好去处<br><span class="hl">优益托管</span>伴孩子成长每一步</h1>
-      <p class="hero-sub">
-        专注中小学生校外托管服务：接送看护、营养餐食、作业辅导、习惯养成，
-        在安全温馨的环境中，让每个孩子学有所获、玩有所乐。
-      </p>
-      <div class="hero-actions">
-        <a href="#contact" class="btn btn-yellow">立即预约参观 →</a>
-        <a href="#programs" class="btn btn-outline">查看托管班型</a>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 id="hero-title">放学以后，<br>也有<span class="handwritten">好好成长。<svg viewBox="0 0 290 18" aria-hidden="true"><path d="M4 12C70 2 177 2 285 9M33 16c87-7 141-7 203-4"/></svg></span></h1>
+          <p class="hero-sub">一顿热乎饭，一张安静的书桌，一位耐心的老师。<br>把孩子放学后的时光，认真照顾好。</p>
+          <div class="hero-actions">
+            <a href="tel:15229991006" class="btn btn-primary"><svg><use href="#i-phone"/></svg>电话预约参观<svg class="arrow"><use href="#i-arrow"/></svg></a>
+            <a href="#daily" class="text-link">看看孩子的一天<svg><use href="#i-arrow"/></svg></a>
+          </div>
+          <p class="hero-location"><svg><use href="#i-pin"/></svg>陕西安康 · 中小学生校外托管</p>
+        </div>
+        <div class="hero-visual">
+          <svg class="hero-sun" viewBox="0 0 70 70" aria-hidden="true"><circle cx="35" cy="35" r="14"/><path d="M35 2v13m0 40v13M2 35h13m40 0h13M12 12l9 9m28 28 9 9M12 58l9-9m28-28 9-9"/></svg>
+          <div class="hero-photo-frame">
+            <img src="assets/classroom.jpg" alt="优益托管教室里，孩子们坐在自己的书桌前认真完成作业" width="1920" height="1080" fetchpriority="high">
+            <span class="photo-tape" aria-hidden="true"></span>
+          </div>
+          <div class="hero-note">
+            <img src="assets/lunch.jpg" alt="优益托管供应的午餐，包含米饭、荤菜、素菜和汤" width="1440" height="1080">
+            <span>今日也要好好吃饭</span>
+          </div>
+          <span class="hero-scribble" aria-hidden="true">认真学习，<br>也快乐成长 ↗</span>
+        </div>
       </div>
-      <ul class="hero-stats">
-        <li><strong>1:8</strong><span>师生配比</span></li>
-        <li><strong>3餐+</strong><span>营养配餐</span></li>
-        <li><strong>365天</strong><span>贴心陪伴</span></li>
-      </ul>
-    </div>
-    <div class="hero-visual">
-      <div class="hero-card">
-        <img src="zt.png" alt="优益托管老师辅导孩子写作业" class="hero-photo">
-        <p class="hero-badge">让优秀 成为习惯</p>
+      <div class="container service-links" aria-label="服务特色">
+        <a href="#care"><svg><use href="#i-route"/></svg><span><strong>安全接送</strong><small>接送与交接，环环有着落</small></span><svg class="service-arrow"><use href="#i-arrow"/></svg></a>
+        <a href="#meals"><svg><use href="#i-meal"/></svg><span><strong>营养餐食</strong><small>荤素搭配，每日好好吃饭</small></span><svg class="service-arrow"><use href="#i-arrow"/></svg></a>
+        <a href="#routine"><svg><use href="#i-book"/></svg><span><strong>作业辅导</strong><small>耐心陪伴，完成当日任务</small></span><svg class="service-arrow"><use href="#i-arrow"/></svg></a>
+        <a href="#care"><svg><use href="#i-chat"/></svg><span><strong>家长沟通</strong><small>及时反馈，了解孩子动态</small></span><svg class="service-arrow"><use href="#i-arrow"/></svg></a>
       </div>
-      <div class="sticker sticker-star" aria-hidden="true">★</div>
-      <div class="sticker sticker-heart" aria-hidden="true">♥</div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ===== 五大特色 ===== -->
-<section class="features" id="features">
-  <div class="container">
-    <div class="feature-strip">
-      <div class="feature">
-        <span class="feature-icon ic-green">🏫</span>
-        <h3>安全接送</h3>
-        <p>定点接校、到托签到、离托交接，全程有人管。</p>
+    <section class="section daily" id="daily" aria-labelledby="daily-title">
+      <div class="container">
+        <div class="section-heading split-heading">
+          <h2 id="daily-title">小小的日常，<br>值得认真记录<span class="dot">。</span></h2>
+          <div><p>这里不是摆拍的样板，而是孩子们在优益的真实片段。<br>认真学习、好好吃饭，也一起分享快乐。</p><span class="handwritten photo-hint">镜头里的优益日常 ↓</span></div>
+        </div>
+        <div class="photo-journal">
+          <button class="journal-photo journal-main" type="button" data-photo="assets/study.jpg" data-caption="安静的学习时光｜孩子们在自己的座位上完成作业" aria-label="放大查看孩子们认真完成作业的照片">
+            <img src="assets/study.jpg" alt="孩子们在优益托管教室中认真书写作业" width="1920" height="1080" loading="lazy">
+            <span class="photo-caption"><span>安静的学习时光</span><svg><use href="#i-expand"/></svg></span>
+          </button>
+          <button class="journal-photo journal-meal" type="button" data-photo="assets/lunch-fresh.jpg" data-caption="每日餐食记录｜荤素搭配的一顿午餐" aria-label="放大查看每日餐食照片">
+            <img src="assets/lunch-fresh.jpg" alt="有荤菜、素菜、米饭、汤和水果的午餐" width="1440" height="1080" loading="lazy">
+            <span class="photo-caption"><span>今天吃什么？</span><svg><use href="#i-expand"/></svg></span>
+          </button>
+          <button class="journal-photo journal-happy" type="button" data-photo="assets/happy-moments.jpg" data-caption="一起长大的快乐｜孩子们分享儿童节日的欢乐" aria-label="放大查看孩子们的节日活动合影">
+            <img src="assets/happy-moments.jpg" alt="优益托管的孩子们一起庆祝儿童节" width="1920" height="1080" loading="lazy">
+            <span class="photo-caption"><span>一起长大的快乐</span><svg><use href="#i-expand"/></svg></span>
+          </button>
+        </div>
+        <p class="photo-disclaimer">照片来自优益托管日常记录 · 点击图片可放大查看</p>
       </div>
-      <div class="feature">
-        <span class="feature-icon ic-yellow">🍚</span>
-        <h3>营养餐食</h3>
-        <p>荤素搭配、每周菜谱公示，孩子吃得香长得好。</p>
-      </div>
-      <div class="feature">
-        <span class="feature-icon ic-blue">📚</span>
-        <h3>作业辅导</h3>
-        <p>专业老师督促辅导，当天作业当天清。</p>
-      </div>
-      <div class="feature">
-        <span class="feature-icon ic-pink">⏰</span>
-        <h3>习惯养成</h3>
-        <p>时间规划、预习复习方法指导，受益不止一学期。</p>
-      </div>
-      <div class="feature">
-        <span class="feature-icon ic-purple">📱</span>
-        <h3>家长放心</h3>
-        <p>每日反馈孩子动态，家长实时了解、省心安心。</p>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ===== 关于我们 ===== -->
-<section class="about" id="about">
-  <div class="container about-grid">
-    <div class="about-visual">
-      <div class="about-card main-card">
-        <h4>我们的承诺</h4>
-        <ul>
-          <li>✅ 持证经营 · 规范管理</li>
-          <li>✅ 环境整洁 · 定期消毒</li>
-          <li>✅ 老师耐心 · 责任到人</li>
-          <li>✅ 食材新鲜 · 明厨亮灶</li>
-        </ul>
+    <section class="section programs" id="programs" aria-labelledby="programs-title">
+      <div class="container">
+        <div class="section-heading centered-heading">
+          <h2 id="programs-title">您需要的陪伴，我们来安排<span class="dot">。</span></h2>
+          <p>根据孩子的放学时间与家庭安排，选择合适的托管方式。</p>
+        </div>
+        <div class="program-tabs" role="tablist" aria-label="选择托管班型">
+          <button role="tab" id="tab-lunch" aria-selected="true" aria-controls="panel-lunch" data-program="lunch"><svg><use href="#i-sun"/></svg>午托班</button>
+          <button role="tab" id="tab-evening" aria-selected="false" aria-controls="panel-evening" data-program="evening" tabindex="-1"><svg><use href="#i-book"/></svg>晚托班</button>
+          <button role="tab" id="tab-full" aria-selected="false" aria-controls="panel-full" data-program="full" tabindex="-1"><svg><use href="#i-clock"/></svg>全日托管</button>
+          <button role="tab" id="tab-holiday" aria-selected="false" aria-controls="panel-holiday" data-program="holiday" tabindex="-1"><svg><use href="#i-sun"/></svg>假期托管</button>
+        </div>
+        <div class="program-panels">
+          <article class="program-panel" id="panel-lunch" role="tabpanel" aria-labelledby="tab-lunch">
+            <div class="program-description"><span class="program-label">午间时光 · 午托班</span><h3>中午有人接，<br>热饭和休息都安排妥当。</h3><p>围绕孩子中午的接送、用餐与休息提供照料，解决家长中午无暇接送的烦恼。</p><a class="text-link" href="tel:15229991006">咨询午托班<svg><use href="#i-arrow"/></svg></a></div>
+            <ul class="program-features"><li><svg><use href="#i-check"/></svg><span><strong>定点接校</strong>按学校放学时间接孩子</span></li><li><svg><use href="#i-check"/></svg><span><strong>营养午餐</strong>荤素搭配，记录每日餐食</span></li><li><svg><use href="#i-check"/></svg><span><strong>午间照料</strong>饭后休息，按安排送校</span></li></ul>
+            <span class="program-doodle handwritten">中午<br>交给我们 ↗</span>
+          </article>
+          <article class="program-panel" id="panel-evening" role="tabpanel" aria-labelledby="tab-evening" hidden>
+            <div class="program-description"><span class="program-label">放学之后 · 晚托班</span><h3>作业有着落，<br>下班后从容接孩子。</h3><p>从接校、晚餐到作业辅导，陪伴孩子完成当天的学习任务，再与家人分享一天的故事。</p><a class="text-link" href="tel:15229991006">咨询晚托班<svg><use href="#i-arrow"/></svg></a></div>
+            <ul class="program-features"><li><svg><use href="#i-check"/></svg><span><strong>接校与晚餐</strong>放学后的生活有序衔接</span></li><li><svg><use href="#i-check"/></svg><span><strong>作业辅导</strong>督促完成，检查并订正</span></li><li><svg><use href="#i-check"/></svg><span><strong>复习预习</strong>培养受益长久的学习习惯</span></li></ul>
+            <span class="program-doodle handwritten">一点点<br>每天进步 ↗</span>
+          </article>
+          <article class="program-panel" id="panel-full" role="tabpanel" aria-labelledby="tab-full" hidden>
+            <div class="program-description"><span class="program-label">午托 + 晚托 · 全日托管</span><h3>午间到晚间，<br>每个环节都从容衔接。</h3><p>将午托与晚托组合安排，接送、用餐、休息和学习由同一群熟悉的老师持续陪伴。</p><a class="text-link" href="tel:15229991006">咨询全日托管<svg><use href="#i-arrow"/></svg></a></div>
+            <ul class="program-features"><li><svg><use href="#i-check"/></svg><span><strong>完整安排</strong>覆盖午间与课后两个时段</span></li><li><svg><use href="#i-check"/></svg><span><strong>生活照料</strong>餐食、休息与活动有序进行</span></li><li><svg><use href="#i-check"/></svg><span><strong>持续陪伴</strong>熟悉孩子的老师沟通日常</span></li></ul>
+            <span class="program-doodle handwritten">熟悉的老师<br>持续的陪伴 ↗</span>
+          </article>
+          <article class="program-panel" id="panel-holiday" role="tabpanel" aria-labelledby="tab-holiday" hidden>
+            <div class="program-description"><span class="program-label">周末 / 寒暑假 · 假期托管</span><h3>假期有节奏，<br>学习和快乐都不缺席。</h3><p>根据假期安排提供托管服务，让孩子保持规律作息，完成学习计划，也有时间与伙伴相处。</p><a class="text-link" href="tel:15229991006">咨询假期托管<svg><use href="#i-arrow"/></svg></a></div>
+            <ul class="program-features"><li><svg><use href="#i-check"/></svg><span><strong>规律作息</strong>安排好每天的学习和休息</span></li><li><svg><use href="#i-check"/></svg><span><strong>假期任务</strong>陪伴孩子有序推进作业</span></li><li><svg><use href="#i-check"/></svg><span><strong>同伴时光</strong>一起度过充实的假期</span></li></ul>
+            <span class="program-doodle handwritten">假期也要<br>好好长大 ↗</span>
+          </article>
+        </div>
+        <p class="program-note">具体服务时段与班额，欢迎电话详询。<a href="tel:15229991006">152 2999 1006</a></p>
       </div>
-      <div class="about-card side-card">
-        <span class="big-emoji">💛</span>
-        <p>让每个孩子<br>被看见、被鼓励</p>
+    </section>
+
+    <section class="section routine" id="routine" aria-labelledby="routine-title">
+      <div class="container routine-grid">
+        <div class="routine-intro"><h2 id="routine-title">孩子的一天，<br>每一步都有回应<span class="dot">。</span></h2><p>清楚的安排，让孩子的生活有秩序，<br>也让忙碌的家长少一点牵挂。</p><div class="routine-switch" role="group" aria-label="查看托管时段"><button class="is-active" type="button" data-routine="midday" aria-pressed="true"><svg><use href="#i-sun"/></svg>午间安排</button><button type="button" data-routine="evening" aria-pressed="false"><svg><use href="#i-moon"/></svg>课后安排</button></div><span class="handwritten routine-note">不慌不忙，按时长大 ↓</span></div>
+        <ol class="routine-list" id="midday-routine">
+          <li><span class="routine-icon"><svg><use href="#i-route"/></svg></span><div><h3>放学接校</h3><p>老师按学校放学时间定点接孩子。</p></div><span class="routine-order">接校</span></li>
+          <li><span class="routine-icon"><svg><use href="#i-chat"/></svg></span><div><h3>到托签到</h3><p>确认孩子到达，做好到托记录。</p></div><span class="routine-order">到托</span></li>
+          <li><span class="routine-icon"><svg><use href="#i-meal"/></svg></span><div><h3>午餐与休息</h3><p>好好吃饭，饭后适当休息。</p></div><span class="routine-order">午间</span></li>
+          <li><span class="routine-icon"><svg><use href="#i-check"/></svg></span><div><h3>按安排送校</h3><p>整理好物品，准时回到课堂。</p></div><span class="routine-order">返校</span></li>
+        </ol>
+        <ol class="routine-list" id="evening-routine" hidden>
+          <li><span class="routine-icon"><svg><use href="#i-route"/></svg></span><div><h3>放学接校</h3><p>老师按学校放学时间定点接孩子。</p></div><span class="routine-order">接校</span></li>
+          <li><span class="routine-icon"><svg><use href="#i-meal"/></svg></span><div><h3>晚餐时光</h3><p>先补充能量，再开始晚间学习。</p></div><span class="routine-order">晚餐</span></li>
+          <li><span class="routine-icon"><svg><use href="#i-book"/></svg></span><div><h3>作业与复习</h3><p>督促完成作业，检查订正并复习预习。</p></div><span class="routine-order">学习</span></li>
+          <li><span class="routine-icon"><svg><use href="#i-chat"/></svg></span><div><h3>家长接回</h3><p>与家长做好交接，沟通当天情况。</p></div><span class="routine-order">回家</span></li>
+        </ol>
       </div>
-    </div>
-    <div class="about-copy">
-      <p class="eyebrow eyebrow-pink">欢迎了解优益托管</p>
-      <h2>一个让孩子安心<br>让家长放心的「第二个家」</h2>
-      <p>
-        优益托管位于安康市，专注为小学生提供校外托管与课后辅导服务。
-        我们深知双职工家庭的难处：孩子放学没人接、作业没人管、吃饭将就凑合。
-        在优益，孩子有热乎的饭菜、安静的书桌、耐心的老师，
-        还有一起学习一起玩的小伙伴。
-      </p>
-      <p>
-        我们相信，托管不只是「看着孩子」，更是陪伴孩子养成受益一生的好习惯。
-      </p>
-      <a href="#contact" class="btn btn-outline">了解更多 →</a>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ===== 托管班型 ===== -->
-<section class="programs" id="programs">
-  <div class="container">
-    <div class="section-head">
-      <p class="eyebrow eyebrow-green">托管班型</p>
-      <h2>按需选择，总有一款适合您家孩子</h2>
-    </div>
-    <div class="program-grid">
-      <article class="program p-green">
-        <span class="program-icon">🍱</span>
-        <p class="program-tag">午托班</p>
-        <p class="program-time">中午时段</p>
-        <p>接校用餐 · 饭后休息 · 准时送校。解决中午无人照看的难题。</p>
-        <a href="#contact" class="program-link">咨询详情 →</a>
-      </article>
-      <article class="program p-yellow">
-        <span class="program-icon">✏️</span>
-        <p class="program-tag">晚托班</p>
-        <p class="program-time">放学后</p>
-        <p>接校 + 晚餐 + 作业辅导 + 复习预习，家长下班直接接走。</p>
-        <a href="#contact" class="program-link">咨询详情 →</a>
-      </article>
-      <article class="program p-blue">
-        <span class="program-icon">☀️</span>
-        <p class="program-tag">全日托管</p>
-        <p class="program-time">午托 + 晚托</p>
-        <p>全天无缝衔接，接送、用餐、学习一站式安排，最省心。</p>
-        <a href="#contact" class="program-link">咨询详情 →</a>
-      </article>
-      <article class="program p-pink">
-        <span class="program-icon">🗓️</span>
-        <p class="program-tag">假期托管</p>
-        <p class="program-time">周末 / 寒暑假</p>
-        <p>假期作息不乱、作业不断、兴趣不丢，快乐充实的假期计划。</p>
-        <a href="#contact" class="program-link">咨询详情 →</a>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 安全保障 ===== -->
-<section class="why" id="why">
-  <div class="container why-grid">
-    <div class="why-copy">
-      <p class="eyebrow eyebrow-blue">安全保障</p>
-      <h2>孩子交给我们<br>这四件事请您放心</h2>
-      <div class="why-item">
-        <span class="why-num">1</span>
-        <div><h4>接送闭环</h4><p>老师定点接校，到托签到、离托家长签字交接，不留空档。</p></div>
+    <section class="section care" id="care" aria-labelledby="care-title">
+      <div class="container care-grid">
+        <div class="care-photo"><img src="assets/study-room.jpg" alt="优益托管的教室，孩子们各自专注学习" width="1920" height="1080" loading="lazy"><span class="photo-tape" aria-hidden="true"></span><p class="handwritten">被看见，也被认真陪伴。</p></div>
+        <div class="care-copy"><h2 id="care-title">放心，藏在<br>每一件小事里<span class="dot">。</span></h2><p>托管不只是“看着孩子”。从接校到回家，我们关注每一个日常细节。</p><div class="care-accordion">
+          <details open><summary><svg><use href="#i-route"/></svg>接送有交接<span class="detail-plus">＋</span></summary><p>按学校放学时间定点接校，到托签到；离托与家长做好交接，让孩子的行程有人跟进。</p></details>
+          <details><summary><svg><use href="#i-meal"/></svg>餐食有记录<span class="detail-plus">＋</span></summary><p>关注荤素搭配与饮食卫生，记录每日餐食。孩子如有过敏或忌口，请在入托前与老师沟通。</p></details>
+          <details><summary><svg><use href="#i-book"/></svg>学习有陪伴<span class="detail-plus">＋</span></summary><p>老师督促孩子先完成作业，再检查订正、复习预习，在陪伴中帮助孩子建立学习习惯。</p></details>
+          <details><summary><svg><use href="#i-chat"/></svg>情况有沟通<span class="detail-plus">＋</span></summary><p>围绕孩子的用餐、作业和日常情况与家长保持沟通，有问题及时联系。</p></details>
+        </div></div>
       </div>
-      <div class="why-item">
-        <span class="why-num">2</span>
-        <div><h4>食品安全</h4><p>当日采买、留样记录、餐具消毒，菜单每周公示。</p></div>
+    </section>
+
+    <section class="section meals" id="meals" aria-labelledby="meals-title">
+      <div class="container meals-grid">
+        <div class="meals-copy"><span class="handwritten">今天也要好好吃饭！</span><h2 id="meals-title">热乎的一餐，<br>是简单的幸福<span class="dot">。</span></h2><p>米饭、荤菜、素菜、汤与水果，认真对待每一顿饭。这里的每一张餐食照片，都来自优益的日常记录。</p><a class="text-link" href="tel:15229991006">电话了解每日餐食<svg><use href="#i-arrow"/></svg></a></div>
+        <div class="meal-stack">
+          <button type="button" data-photo="assets/lunch.jpg" data-caption="优益托管餐食记录｜米饭、荤素菜肴与汤" aria-label="放大查看米饭、荤素菜肴与汤"><img src="assets/lunch.jpg" alt="米饭、荤素菜肴和汤" width="1440" height="1080" loading="lazy"></button>
+          <button type="button" data-photo="assets/lunch-seasonal.jpg" data-caption="优益托管餐食记录｜荤素搭配与当季水果" aria-label="放大查看荤素搭配与当季水果"><img src="assets/lunch-seasonal.jpg" alt="有水果、荤菜、素菜、米饭和汤的餐食" width="1440" height="1080" loading="lazy"></button>
+        </div>
       </div>
-      <div class="why-item">
-        <span class="why-num">3</span>
-        <div><h4>环境安全</h4><p>消防设施齐备、防滑防撞处理，活动区域安全无死角。</p></div>
-      </div>
-      <div class="why-item">
-        <span class="why-num">4</span>
-        <div><h4>沟通透明</h4><p>家长群每日反馈用餐与作业情况，随时欢迎家长监督。</p></div>
-      </div>
-    </div>
-    <div class="why-visual">
-      <div class="why-quote">
-        <p>“托管的意义，<br>是让孩子放学后也有归属感。”</p>
-        <span>—— 优益托管全体老师</span>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
 
-<!-- ===== 家长评价 ===== -->
-<section class="reviews" id="reviews">
-  <div class="container">
-    <div class="section-head">
-      <p class="eyebrow eyebrow-pink">家长评价</p>
-      <h2>听听家长们怎么说</h2>
-    </div>
-    <div class="review-grid">
-      <article class="review">
-        <p class="stars">★★★★★</p>
-        <p>“孩子以前回家作业拖到十点，来了两个月每天七点半前就写完了，吃饭也不挑了，真心省心。”</p>
-        <footer>— 三年级 · 小雨妈妈</footer>
-      </article>
-      <article class="review">
-        <p class="stars">★★★★★</p>
-        <p>“最打动我的是每天的反馈，吃了什么、作业情况怎么样都说得清清楚楚，就像孩子在学校多了一个家长。”</p>
-        <footer>— 二年级 · 铭铭爸爸</footer>
-      </article>
-      <article class="review">
-        <p class="stars">★★★★★</p>
-        <p>“双职工家庭真的离不开托管，试了两家最后选了优益，老师有耐心，环境也干净，孩子自己都愿意去。”</p>
-        <footer>— 五年级 · 浩浩妈妈</footer>
-      </article>
-    </div>
-  </div>
-</section>
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq-grid"><div class="faq-intro"><h2 id="faq-title">您在意的，<br>我们都愿意聊聊<span class="dot">。</span></h2><p>还有其他问题？欢迎直接来电，我们会结合孩子的情况为您介绍。</p><a href="tel:15229991006" class="text-link">电话咨询<svg><use href="#i-arrow"/></svg></a></div><div class="faq-list">
+        <details open><summary>孩子放学怎么接？<span>＋</span></summary><p>老师按学校放学时间定点到校门口接孩子，到托后签到登记。具体接校地点与交接方式，可在参观时与老师确认。</p></details>
+        <details><summary>作业辅导包含哪些内容？<span>＋</span></summary><p>孩子入托后先完成作业，老师督促并检查订正，之后进行复习预习。发现学习问题会及时与家长沟通。</p></details>
+        <details><summary>孩子过敏或挑食怎么办？<span>＋</span></summary><p>请在入托前主动告知孩子的过敏源、饮食禁忌和口味偏好，与老师确认能否做相应安排，不因隐瞒饮食情况带来风险。</p></details>
+        <details><summary>可以按月报名或先参观吗？<span>＋</span></summary><p>支持按月、按学期咨询报名，欢迎先到店看看环境、与老师沟通。具体班型、费用、请假与退托规则以入托协议为准。</p></details>
+        <details><summary>怎么预约到店参观？<span>＋</span></summary><p>拨打 <a href="tel:15229991006">152 2999 1006</a>，告诉我们孩子的年级和需要的托管时段，与老师约定参观时间即可。</p></details>
+      </div></div>
+    </section>
 
-<!-- ===== 报名流程 ===== -->
-<section class="steps">
-  <div class="container">
-    <div class="section-head">
-      <p class="eyebrow eyebrow-green">报名流程</p>
-      <h2>四步开启安心托管</h2>
-    </div>
-    <ol class="step-grid">
-      <li><span>01</span><h4>电话 / 微信咨询</h4><p>了解班型与名额</p></li>
-      <li><span>02</span><h4>到店参观体验</h4><p>看环境、见老师</p></li>
-      <li><span>03</span><h4>确定班型报名</h4><p>登记信息、签订协议</p></li>
-      <li><span>04</span><h4>正式入托</h4><p>老师对接、开始陪伴</p></li>
-    </ol>
-  </div>
-</section>
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner"><div><h2 id="contact-title">抽空来看看，<br>再为孩子做决定<span class="contact-flower" aria-hidden="true">✳</span></h2><p>看看真实的环境，认识陪伴孩子的人。<br>一通电话，约个方便的时间。</p></div><div class="contact-action"><span>预约参观 / 班型咨询</span><a href="tel:15229991006"><svg><use href="#i-phone"/></svg>152 2999 1006</a><p><svg><use href="#i-pin"/></svg>陕西省安康市 · 详细地址请来电咨询</p></div></div>
+    </section>
+  </main>
 
-<!-- ===== FAQ ===== -->
-<section class="faq" id="faq">
-  <div class="container faq-wrap">
-    <div class="section-head">
-      <p class="eyebrow eyebrow-pink">常见问题</p>
-      <h2>家长最关心的几个问题</h2>
-    </div>
-    <details open>
-      <summary>孩子放学你们怎么接？安全吗？</summary>
-      <p>老师按学校放学时间定点到校门口接孩子，列队步行回托，到托后签到登记，家长可通过家长群实时了解孩子到托情况。</p>
-    </details>
-    <details>
-      <summary>伙食怎么样？会不会吃不饱？</summary>
-      <p>荤素搭配、少油少盐，主食不限量，每周菜谱在家长群公示。孩子如有过敏或忌口，提前告知我们会单独安排。</p>
-    </details>
-    <details>
-      <summary>作业辅导是老师教吗？</summary>
-      <p>是的，孩子入托后先完成作业，老师全程督促并检查订正，之后进行复习预习。发现问题会及时反馈给家长。</p>
-    </details>
-    <details>
-      <summary>可以按月报名吗？临时有事能请假吗？</summary>
-      <p>支持按月、按学期报名，均可体验后再决定。因病因事请假可提前告知，按规则安排补托或退费，具体以入托协议为准。</p>
-    </details>
-  </div>
-</section>
+  <footer class="site-footer"><div class="container footer-main"><a class="footer-brand" href="#top"><img src="logo.png" alt="优益托管" width="140" height="55"><span>让放学后的时光，也有好好成长。</span></a><nav aria-label="页脚导航"><a href="#daily">托管日常</a><a href="#programs">班型选择</a><a href="#care">安心细节</a><a href="#contact">联系我们</a></nav><div class="footer-company"><strong>安康优益托管服务有限公司</strong><span>午托 · 晚托 · 全日托管 · 假期托管</span></div></div><div class="container copyright"><span>© 2026 安康优益托管服务有限公司</span><span>安心托管 · 用心陪伴 · 贴心成长</span></div></footer>
 
-<!-- ===== 联系我们 ===== -->
-<section class="contact" id="contact">
-  <div class="container contact-card">
-    <div class="contact-copy">
-      <p class="eyebrow eyebrow-yellow">联系我们</p>
-      <h2>为孩子预约一次免费参观吧</h2>
-      <p>名额有限，欢迎先到店看看环境、和老师聊聊。<br>优益托管期待您和孩子的到来。</p>
-      <a href="tel:00000000000" class="btn btn-yellow" id="telBtn">📞 电话咨询（点击填写）</a>
-    </div>
-    <div class="contact-info">
-      <div class="info-item"><h4>📍 地址</h4><p>陕西省安康市（详细地址请补充）</p></div>
-      <div class="info-item"><h4>📞 电话</h4><p>（联系电话请补充）</p></div>
-      <div class="info-item"><h4>⏰ 服务时间</h4><p>周一至周五 午晚托 · 周末及假期另约</p></div>
-      <div class="info-item"><h4>🏷️ 主体信息</h4><p>安康优益托管服务有限公司</p></div>
-    </div>
-  </div>
-</section>
-
-<!-- ===== 页脚 ===== -->
-<footer class="site-footer">
-  <div class="container footer-wrap">
-    <div class="footer-brand">
-      <img src="logo.png" alt="优益托管">
-      <p>安心托管 · 用心陪伴 · 贴心成长</p>
-    </div>
-    <nav class="footer-nav">
-      <a href="#features">服务特色</a>
-      <a href="#programs">托管班型</a>
-      <a href="#why">安全保障</a>
-      <a href="#contact">联系我们</a>
-    </nav>
-  </div>
-  <div class="container copyright">
-    <p>© 2026 安康优益托管服务有限公司 · 优益托管 YOUYI AFTER-SCHOOL CARE</p>
-  </div>
-</footer>
-
-<script src="js/main.js"></script>
+  <div class="mobile-contact"><span><small>预约参观咨询</small><strong>152 2999 1006</strong></span><a href="tel:15229991006"><svg><use href="#i-phone"/></svg>电话咨询</a></div>
+  <dialog class="photo-dialog" id="photoDialog" aria-label="查看优益托管日常照片"><button class="dialog-close" id="dialogClose" type="button" aria-label="关闭照片"><svg><use href="#i-close"/></svg></button><img id="dialogImage" src="assets/classroom.jpg" alt=""><p id="dialogCaption"></p></dialog>
 </body>
 </html>
